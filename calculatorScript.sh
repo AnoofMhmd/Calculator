@@ -1,11 +1,11 @@
 #! /bin/bash
+function calculator
+{
 echo "Enter N1"
 read N1
 echo "Enter N2"
 read N2
 
-function calculator
-{
 echo "Enter Operation"
 read Operation
 if [ $Operation -eq 1 ]
